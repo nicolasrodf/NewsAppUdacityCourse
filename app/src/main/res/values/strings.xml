@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">The Guardian News App</string>
+
+    <!-- Text to display in the list when there are no articles [CHAR LIMIT=NONE] -->
+    <string name="no_articles">No articles found.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No internet connection.</string>
+
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">News Settings</string>
+
+    <!--******************ORDER BY***************************-->
+
+    <!-- Strings For Order-By Preference [CHAR LIMIT=30] -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_relevance_value</string>
+
+    <!-- Label for order-by relevance option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">order-by=relevance</string>
+
+    <!-- Label for order-by most recent option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_recent_label">Most Recent</string>
+    <string name="settings_order_by_most_recent_value" translatable="false">order-by=newest</string>
+
+    <!-- Label for order-by most oldest option [CHAR LIMIT=20] -->
+    <string name="settings_order_by_most_oldest_label">Oldest</string>
+    <string name="settings_order_by_most_oldest_value" translatable="false">order-by=oldest</string>
+
+
+    <!--******************SECTIONS***************************-->
+
+    <!-- Strings For Sections [CHAR LIMIT=30] -->
+    <string name="settings_sections_label">Secciones</string>
+    <string name="settings_sections_key" translatable="false">section</string>
+    <string name="settings_sections_default" translatable="false">@string/settings_sections_all_news_value</string>
+
+    <!-- Label for  All news option [CHAR LIMIT=20] -->
+    <string name="settings_sections_all_news_label">All News</string>
+    <string name="settings_sections_all_news_value" translatable="false">sections=%20</string>
+    <!-- Ojo que para news no se pone en section= sino en vez de eso se pone un espacio vacio y es sections no section.-->
+
+    <string name="settings_sections_sports_label">Sports</string>
+    <string name="settings_sections_sports_value" translatable="false">section=sports</string>
+
+    <string name="settings_sections_world_label">World</string>
+    <string name="settings_sections_world_value" translatable="false">section=world</string>
+
+    <string name="settings_sections_football_label">Football</string>
+    <string name="settings_sections_football_value" translatable="false">section=football</string>
+
+    <string name="settings_sections_culture_label">Culture</string>
+    <string name="settings_sections_culture_value" translatable="false">section=culture</string>
+
+    <string name="settings_sections_business_label">Business</string>
+    <string name="settings_sections_business_value" translatable="false">section=business</string>
+
+    <string name="settings_sections_fashion_label">Fashion</string>
+    <string name="settings_sections_fashion_value" translatable="false">section=fashion</string>
+
+    <string name="settings_sections_technology_label">Technology</string>
+    <string name="settings_sections_technology_value" translatable="false">section=technology</string>
+
+    <string name="settings_sections_travel_label">Travel</string>
+    <string name="settings_sections_travel_value" translatable="false">section=travel</string>
+
+    <string name="settings_sections_science_label">Science</string>
+    <string name="settings_sections_science_value" translatable="false">section=science</string>
+
+    <string name="settings_sections_money_label">Money</string>
+    <string name="settings_sections_money_value" translatable="false">section=money</string>
+
+
+
+
+
+</resources>
